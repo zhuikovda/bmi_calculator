@@ -19,26 +19,26 @@ class _InputPageState extends State<InputPage> {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Expanded(
-                  child: RepeatContainer(),
+                  child: _RepeatContainer(),
                 ),
                 Expanded(
-                  child: RepeatContainer(),
+                  child: _RepeatContainer(),
                 ),
               ],
             ),
           ),
           Expanded(
-            child: RepeatContainer(),
+            child: _RepeatContainer(),
           ),
           Expanded(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Expanded(
-                  child: RepeatContainer(),
+                  child: _RepeatContainer(),
                 ),
                 Expanded(
-                  child: RepeatContainer(),
+                  child: _RepeatContainer(),
                 ),
               ],
             ),
@@ -49,7 +49,7 @@ class _InputPageState extends State<InputPage> {
   }
 }
 
-class RepeatContainer extends StatelessWidget {
+class _RepeatContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
